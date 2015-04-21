@@ -13,6 +13,11 @@ You are reading the README for class project for Getting and Cleaning Data. In t
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+
+### Data
+Data were downloaded from the following URL:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
 ### Step 1
 1. All data sets from the training and testing set are downloaded and loaded into data frames.
 2. Activity, subject, and measurement are combined for both the training and testing data sets (using cbind).
