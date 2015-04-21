@@ -1,0 +1,85 @@
+---
+title: DATA DICTIONARY - Tiny Data
+output: html_document
+---
+
+## Subject : Subject ID : int
+* 1..30
+
+## Activity : Activity Type : Factor with 6 levels
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING  
+
+## Measurement : Factor with 66 levels
+* TimeBodyAccelerationMeanXaxis
+* TimeBodyAccelerationMeanYaxis
+* TimeBodyAccelerationMeanZaxis
+* TimeBodyAccelerationStandardDeviationXaxis
+* TimeBodyAccelerationStandardDeviationYaxis
+* TimeBodyAccelerationStandardDeviationZaxis
+* TimeGravityAccelerationMeanXaxis
+* TimeGravityAccelerationMeanYaxis
+* TimeGravityAccelerationMeanZaxis
+* TimeGravityAccelerationStandardDeviationXaxis
+* TimeGravityAccelerationStandardDeviationYaxis
+* TimeGravityAccelerationStandardDeviationZaxis
+* TimeBodyAccelerationJerkMeanXaxis
+* TimeBodyAccelerationJerkMeanYaxis
+* TimeBodyAccelerationJerkMeanZaxis
+* TimeBodyAccelerationJerkStandardDeviationXaxis
+* TimeBodyAccelerationJerkStandardDeviationYaxis
+* TimeBodyAccelerationJerkStandardDeviationZaxis
+* TimeBodyGyroscopeMeanXaxis
+* TimeBodyGyroscopeMeanYaxis
+* TimeBodyGyroscopeMeanZaxis
+* TimeBodyGyroscopeStandardDeviationXaxis
+* TimeBodyGyroscopeStandardDeviationYaxis
+* TimeBodyGyroscopeStandardDeviationZaxis
+* TimeBodyGyroscopeJerkMeanXaxis
+* TimeBodyGyroscopeJerkMeanYaxis
+* TimeBodyGyroscopeJerkMeanZaxis
+* TimeBodyGyroscopeJerkStandardDeviationXaxis
+* TimeBodyGyroscopeJerkStandardDeviationYaxis
+* TimeBodyGyroscopeJerkStandardDeviationZaxis
+* TimeBodyAccelerationMagnitudeMean
+* TimeBodyAccelerationMagnitudeStandardDeviation
+* TimeGravityAccelerationMagnitudeMean
+* TimeGravityAccelerationMagnitudeStandardDeviation
+* TimeBodyAccelerationJerkMagnitudeMean
+* TimeBodyAccelerationJerkMagnitudeStandardDeviation
+* TimeBodyGyroscopeMagnitudeMean
+* TimeBodyGyroscopeMagnitudeStandardDeviation
+* TimeBodyGyroscopeJerkMagnitudeMean
+* TimeBodyGyroscopeJerkMagnitudeStandardDeviation
+* FrequencyBodyAccelerationMeanXaxis
+* FrequencyBodyAccelerationMeanYaxis
+* FrequencyBodyAccelerationMeanZaxis
+* FrequencyBodyAccelerationStandardDeviationXaxis
+* FrequencyBodyAccelerationStandardDeviationYaxis
+* FrequencyBodyAccelerationStandardDeviationZaxis
+* FrequencyBodyAccelerationJerkMeanXaxis
+* FrequencyBodyAccelerationJerkMeanYaxis
+* FrequencyBodyAccelerationJerkMeanZaxis
+* FrequencyBodyAccelerationJerkStandardDeviationXaxis
+* FrequencyBodyAccelerationJerkStandardDeviationYaxis
+* FrequencyBodyAccelerationJerkStandardDeviationZaxis
+* FrequencyBodyGyroscopeMeanXaxis
+* FrequencyBodyGyroscopeMeanYaxis
+* FrequencyBodyGyroscopeMeanZaxis
+* FrequencyBodyGyroscopeStandardDeviationXaxis
+* FrequencyBodyGyroscopeStandardDeviationYaxis
+* FrequencyBodyGyroscopeStandardDeviationZaxis
+* FrequencyBodyAccelerationMagnitudeMean
+* FrequencyBodyAccelerationMagnitudeStandardDeviation
+* FrequencyBodyBodyAccelerationJerkMagnitudeMean
+* FrequencyBodyBodyAccelerationJerkMagnitudeStandardDeviation
+* FrequencyBodyBodyGyroscopeMagnitudeMean
+* FrequencyBodyBodyGyroscopeMagnitudeStandardDeviation
+* FrequencyBodyBodyGyroscopeJerkMagnitudeMean
+* FrequencyBodyBodyGyroscopeJerkMagnitudeStandardDeviation
+
+## Mean : Mean of Mesaurement : numeric
