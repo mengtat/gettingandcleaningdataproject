@@ -18,6 +18,9 @@ You are reading the README for class project for Getting and Cleaning Data. In t
 Data were downloaded from the following URL:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+Full description can be found here:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 ### Step 1
 1. All data sets from the training and testing set are downloaded and loaded into data frames.
 2. Activity, subject, and measurement are combined for both the training and testing data sets (using cbind).
